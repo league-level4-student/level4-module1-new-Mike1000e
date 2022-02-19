@@ -38,11 +38,13 @@ class GottaCatchemAll {
 
             rob.setSpeed(100);
             rob.penDown();
+            rob.hide();
 
             for (int i = 0; i < 4; i++) {
                 rob.move(90);
                 rob.turn(90);
             }
+         
 
         } catch (NullPointerException e) {
             nullPointerExceptionCaught = true;
